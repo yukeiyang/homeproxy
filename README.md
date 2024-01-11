@@ -2,7 +2,7 @@
 
 This is a firmware based on openwrt x86-64, integrated with luci-app-homeproxy.  
   
-It is really fucking clean, containing luci-app-homeproxy and its dependences only. I hate one firmware installed lots of complicated IPKs. That's the reason why I create this repo here.
+It is really fucking clean, containing luci-app-homeproxy and its dependences only. I hate one firmware installed lots of complicated IPKs. That's why I create this firmware.
   
 When flash this firmware, you can choose `Keep settings and retain the current configuration` during the `Flash Image`.  
   
