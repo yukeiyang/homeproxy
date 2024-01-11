@@ -1,10 +1,10 @@
-# openwrt x86-64 firmware with luci-app-xray integrated  
+# openwrt x86-64 firmware with luci-app-homeproxy integrated  
 
-This is a firmware based on openwrt x86-64, with luci-app-xray plugin integrated.  
+This is a firmware based on openwrt x86-64, integrated with luci-app-homeproxy.  
   
-It is clean, containing extra 6 packages only: luci, irqbalance, xray-core, v2ray-geosite, v2ray-geoip, luci-app-xray.  
+It is clean, containing extra 6 packages only: luci, irqbalance, sing-box, v2ray-geosite, v2ray-geoip, luci-app-homeproxy.  
   
-After flashing this firmware, you can choose `Keep settings and retain the current configuration` during the `Flash Image`.  
+When flash this firmware, you can choose `Keep settings and retain the current configuration` during the `Flash Image`.  
   
 Or，you can flash the image as brand new one.  
 
@@ -16,19 +16,11 @@ Password: (none)
 
 Hope you enjoy using it!  
 
-Thanks to @yichya for [luci-app-xray](https://github.com/yichya/luci-app-xray).  
+Thanks to @douglarek for [luci-app-homeproxy](https://github.com/douglarek/luci-app-homeproxy).  
 
    
   
   
-............................................................................................  
-  
-If the [release version](https://github.com/yukeiyang/openwrt/releases) less than v2.1.2.2, then:       
-  
-Management IP: 192.168.1.1  
-lan port: LAN1  
-Username: root  
-Password: (none)  
-  
+
 
 
