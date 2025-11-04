@@ -46,7 +46,15 @@ __pycache__/
 *.pyd
 *.pyc
 *.egg-info/
+*.egg
 .eggs/
+eggs/
+wheels/
+.Python
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
 
 # Node.js
 node_modules/
@@ -63,7 +71,7 @@ yarn-error.log*
 hs_err_pid*
 
 # Go
-bin/
+go-bin/
 *.test
 
 # Rust
@@ -87,6 +95,13 @@ tmp/
 temp/
 
 # ===============================
+# Virtual Environment
+# ===============================
+venv/
+env/
+ENV/
+
+# ===============================
 # Logs & databases
 # ===============================
 *.log
@@ -98,6 +113,8 @@ temp/
 # Environment & secrets
 # ===============================
 .env.local
+*.local.py
+*_local.py
 *.pem
 *.key
 *.crt
@@ -114,3 +131,8 @@ temp/
 
 # Package managers
 *.lock
+
+# ===============================
+# 用户自定义配置 (User Custom)
+# ===============================
+bin/
