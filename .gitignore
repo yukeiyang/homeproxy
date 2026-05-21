@@ -100,6 +100,7 @@ temp/
 # Virtual Environment
 # ===============================
 venv/
+.venv/
 env/
 ENV/
 
@@ -152,9 +153,6 @@ tmpclaude-*
 
 # ship --auto state files by AI CLI 
 .ship_auto_state.json
-
-# Python Virtual Runtime Environment
-.venv
 
 
 # ===============================
