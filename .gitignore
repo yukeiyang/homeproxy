@@ -180,6 +180,9 @@ tmpclaude-*
 .ship_auto_state.json
 .ship_auto_step_result.json
 
+# Codegraph
+.codegraph/
+
 # ===============================
 # 用户自定义配置 (User Custom)
 # ===============================
